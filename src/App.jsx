@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import Portfolio from "./apps/portfolio/App";
+import Portfolio from "./apps/portfolio/index";
 
 const App = () => {
   return (

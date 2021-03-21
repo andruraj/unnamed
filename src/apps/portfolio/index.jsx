@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./index.css";
 
 import NavBar from "./components/navigation/NavBar";
 import Profile from "./components/profile/Main";
