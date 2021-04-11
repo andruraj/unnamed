@@ -1,6 +1,8 @@
 import React from "react";
 import { TiltPerspective } from "../utilities/Utils";
 
+import ProfileAvatar from "./profileAvatar.png";
+
 const Main = () => {
   return (
     <div className="profile">
@@ -28,7 +30,9 @@ const Intro = () => (
           websites and exceptional user interface.
         </small>
       </span>
-      <span>Image</span>
+      <span>
+        <img src={ProfileAvatar} height="150" />
+      </span>
     </TiltPerspective>
   </div>
 );

@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 
-import Portfolio from "./apps/portfolio/index";
+import ResumeBuilder from "./apps/resume-builder/index";
 
 const App = () => {
   return (
     <div>
-      <Portfolio />
+      <ResumeBuilder />
     </div>
   );
 };
