@@ -13,8 +13,7 @@
 
 .resume-builder .content {
   width: 100%;
-  backdrop-filter: blur(25px) brightness(2);
+  background-color: #aaa;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  box-shadow: -2px 0 5px 0px #000;
 }
