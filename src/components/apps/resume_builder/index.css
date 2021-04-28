@@ -16,4 +16,13 @@
   background-color: #aaa;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background-color: #2196f3;
+  color: #fff;
 }

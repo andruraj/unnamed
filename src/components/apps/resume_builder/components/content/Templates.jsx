@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Education = () => {
+const Templates = () => {
   return (
     <div>
-      <p>Education</p>
+      <p>Templates</p>
       <footer
         style={{
           bottom: 0,
@@ -28,4 +28,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Templates;

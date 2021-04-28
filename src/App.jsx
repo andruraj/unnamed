@@ -36,7 +36,6 @@ const App = ({
           {comp.map((c, i) => (
             <Route
               key={i}
-              exact
               path={c.route}
               render={() => <c.comp {...c.compProps} />}
             />

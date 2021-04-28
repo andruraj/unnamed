@@ -7,9 +7,10 @@ const Navigation = () => {
     <div className="navigation">
       <NavItem text="Welcome" route="/" />
       <NavItem text="Personal Details" route="/personal-details" />
-      <NavItem text="Welcome3" route="/welcome3" />
-      <NavItem text="Welcome4" route="/welcome4" />
-      <NavItem text="Welcome5" route="/welcome5" />
+      <NavItem text="Education" route="/education" />
+      <NavItem text="Experience" route="/experience" />
+      <NavItem text="Extras" route="/extras" />
+      <NavItem text="Templates" route="/templates" />
     </div>
   );
 };
@@ -18,7 +19,7 @@ export default Navigation;
 
 const NavItem = withRouter(({ route = "#", text = "", ...props }) => {
   return (
-    <NavLink className="nav-item" to={props.match.path + route}>
+    <NavLink className="nav-item" exact to={props.match.path + route}>
       {text}
     </NavLink>
   );
